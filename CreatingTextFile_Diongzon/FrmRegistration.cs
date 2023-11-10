@@ -64,7 +64,7 @@ namespace CreatingTextFile_Diongzon
             string[] input =
             {
                 "StudentNo: " + StudentNo,
-                "Full Name: " + LastName + " " + firstName + " " + middleName,
+                "Full Name: " + LastName + ", " + firstName + ", " + middleName,
                 "Program: " + Program,
                 "Gender: " + Gender,
                 "Birthday: " + Birthday,
@@ -72,7 +72,7 @@ namespace CreatingTextFile_Diongzon
                 "Contanct No. " + contactNo
             };
 
-            using (StreamWriter outputFile = new StreamWriter(Path.Combine(DocPath, FrmFileName.SetFileName)))
+            using (StreamWriter outputFile = new StreamWriter(Path.Combine(DocPath, StudentNo + ".txt")))
             {
                 foreach (string i in input)
                 {
