@@ -20,9 +20,11 @@ namespace CreatingTextFile_Diongzon
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
+            FrmRegistration frmRegistration = new FrmRegistration();
             FrmFileName frmFileName = new FrmFileName();
             frmFileName.ShowDialog();
-
+            frmRegistration.ShowDialog();
+            
             string getInput = txtInput.Text;
 
             string docPath =
