@@ -43,13 +43,15 @@
             // 
             // btnOkay
             // 
+            this.btnOkay.BackColor = System.Drawing.Color.PaleGreen;
+            this.btnOkay.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnOkay.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOkay.Location = new System.Drawing.Point(106, 99);
             this.btnOkay.Name = "btnOkay";
             this.btnOkay.Size = new System.Drawing.Size(70, 28);
             this.btnOkay.TabIndex = 1;
             this.btnOkay.Text = "Okay";
-            this.btnOkay.UseVisualStyleBackColor = true;
+            this.btnOkay.UseVisualStyleBackColor = false;
             this.btnOkay.Click += new System.EventHandler(this.btnOkay_Click);
             // 
             // label1
@@ -66,6 +68,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(287, 139);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnOkay);
