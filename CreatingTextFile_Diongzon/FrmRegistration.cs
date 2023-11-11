@@ -78,7 +78,9 @@ namespace CreatingTextFile_Diongzon
                 {
                     outputFile.WriteLine(i);
                 }
-            }         
+            }
+            MessageBox.Show("Successful!");
+
         }
     }
 }

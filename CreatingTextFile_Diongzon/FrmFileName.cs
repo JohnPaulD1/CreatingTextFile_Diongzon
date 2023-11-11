@@ -22,6 +22,8 @@ namespace CreatingTextFile_Diongzon
         
             SetFileName = txtFileName.Text + ".txt"; 
             Close();
+            FrmRegistration frmRegistration = new FrmRegistration();
+            frmRegistration.ShowDialog();
         }
     }
 }
