@@ -82,5 +82,12 @@ namespace CreatingTextFile_Diongzon
             MessageBox.Show("Successful!");
 
         }
+
+        private void btnRecords_Click(object sender, EventArgs e)
+        {
+            FrmStudentRecord frmStudentRecord = new FrmStudentRecord();
+            frmStudentRecord.Show();
+            this.Hide();
+        }
     }
 }
